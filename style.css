@@ -1,0 +1,203 @@
+#first
+{
+
+	position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 10;
+  background:purple;
+	overflow: hidden;padding-top: 20px;
+	padding-left: 120px;
+	padding-bottom: 30px;
+	padding-right: 20px;
+}
+
+#second
+{
+	margin-left:100px;
+	margin-right: 100px;
+	margin-top:60px;
+	
+}
+
+#sec1,#sec2,#sec3,#downfirst
+{
+	margin:0px;
+	padding:10px;
+}
+#sec1
+{
+	background-color:lightgrey;
+}
+
+#sec2
+{
+	background-color:white;
+	color: grey;
+}
+
+#sec3
+{
+	background-color:lightgrey;
+}
+
+#roww
+{
+	padding: 40px;
+	color: white;
+	
+	font-family:  Georgia, 'Times New Roman', Times, serif;
+	padding-top:60px;
+	padding-left:80px;
+
+}
+.smaller-image
+{
+
+	width: 350px;
+	border-radius: 0%;	
+	padding-left:170px;
+	padding-right:0px;
+
+}
+.imagesource
+{
+	width:450px;
+	padding-left:120px;
+
+	margin:20px;
+
+}
+
+#formm
+{
+	border:none;
+	border-bottom: 7px sienna solid;
+}
+.last
+{
+	padding:60px;
+	font-size: 65px;
+}
+body
+{
+	background-color: grey;
+}
+
+#downfirst
+{
+	margin:0px;
+	background-color:silver;
+	overflow:hidden;
+	z-index: 10;
+	width:100%;
+	padding-right: 450px;
+	padding-left: 450px;
+	height: 230px;
+}
+
+#downlast
+{
+	
+	margin:0px;
+	background-color: purple;
+	z-index: -10;
+	padding-left:400px;
+	padding-right:300px;
+	height:80px;
+	color: white;
+	text-align: center;
+	padding-top:10px;
+
+}
+
+
+@media only screen and (max-width:600px){
+	#first{
+		font-size: 10px;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    position: inherit;
+	
+	}
+	#second
+{
+	margin:0;
+	width:auto;
+	height: auto;
+	
+}
+
+#sec1{
+	margin: 0;
+	padding-left: 0;
+}
+
+.firstc{
+	margin:0;
+	padding:0;
+}
+#roww {
+	padding: 0;
+	margin:0;
+}
+.smaller-image {
+	padding:0;
+	margin:0;
+	width: 290px;
+	margin-left:10px;
+}
+#sec2{
+}
+.imagesource{
+	padding:0;
+	margin:0;
+	display: none;
+
+}
+.imageresponsive {
+	display: block;
+	padding:5px;
+	margin:0;width:300px;
+}
+.last{
+	padding: 0;
+}
+#downfirst {
+    margin: 0px;
+    background-color: silver;
+    overflow: hidden;
+    z-index: 10;
+    width: 100%;
+		padding: 0;
+		height: auto;
+		text-align: center;
+    /* padding-right: 450px; */
+    /* padding-left: 450px; */
+    /* height: 230px; */
+}
+
+.medias {
+	display: inline-flex;
+	height: auto;
+}
+#downlast{
+	width: auto;
+	height: auto;
+	margin:0;
+	padding:0
+
+}
+
+ h3{
+	font-size:10px;
+}
+.responsetable{
+	margin-left:15px;
+}
+
+}
